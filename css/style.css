@@ -1,0 +1,175 @@
+a {
+    text-decoration: none !important;
+}
+
+.banner-block {
+    background-image: url('../images/Jouri_Hills_Brochure.jpg');
+    height: auto; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.banner-title {
+    padding: 50px 0;
+    padding-top: 100px;
+}
+
+.banner-title h1, .t-title {
+    font-size: 52px;
+    color: #FFF;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.score {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #cca300;
+}
+
+.text-small {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.banner-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.banner-text p {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 0 15px;
+    max-width: 560px;
+}
+
+.brochure {
+    color: #ffffff;
+    background-color: #199c68;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 70px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.text-wrapper {
+    margin: 10%;
+}
+
+.text-wrapper p {
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.image-wrapper {
+    background-image: url('../images/Jouri_Hills_Table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+}
+
+.upper-image-wrapper {
+    display: none;
+}
+
+/* .t-container {
+    padding: 20px 0;
+    width: calc(100% + 40px);
+    display: flex;
+}
+
+.feature-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.feature-wrap .item {
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feature-wrap .item .content {
+    z-index: 2;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.t-name {
+    color: #fff;
+    word-break: break-word;
+    font-size: 24px;
+    line-height: 1.35;
+    font-family: 'TildaSans',Arial,sans-serif;
+    font-weight: 600;
+}
+
+.t-text {
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 1.55;
+    font-family: 'TildaSans',Arial,sans-serif;
+}
+
+.t-image {
+    z-index: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+@media only screen and (max-width: 991px) {
+    .upper-image-wrapper {
+        display: flex;
+        vertical-align: middle;
+    }
+
+    .upper-image-wrapper img {
+        width: auto;
+        max-width: 100%;
+    }
+    
+    .image-wrapper {
+        display: none;
+    }
+}
